@@ -1,2 +1,4 @@
 #!/bin/sh 
-curl http://txt.butimi.li
+URL=http://txt.butimi.li
+curl $URL
+curl -sS $URL >> ~/butimili
